@@ -1,0 +1,1285 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/*############################################header############################################*/
+.Rectangle3 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 7%;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+}
+.tmp{
+    margin-left: 150px;
+    /* width: 900px; */
+    float: left;
+     padding: 10px;
+      width: 33%;
+      background-color: rgb(255, 255, 255);
+}
+.ttmp{
+    width:100%; word-break:break-all;word-wrap:break-word;
+}
+
+.BRNDMKT {
+    position: relative;
+    width: 86px;
+    height: 21px;
+    left: 16%;
+    top: 35%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+.Drops {
+    position: relative;
+    width: 37px;
+    height: 16px;
+    left: 20%;
+    top: 35%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.createPage {
+    position: relative;
+    width: 37px;
+    height: 16px;
+    left: 30%;
+    top: 35%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.Explore {
+    position: relative;
+    width: 47px;
+    height: 16px;
+    left: 34%;
+    top: 35%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Staking {
+    position: relative;
+    width: 47px;
+    height: 16px;
+    left: 40%;
+    top: 35%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Rectangle4 {
+    position: absolute;
+    width: 215px;
+    height: 40%;
+    left: 80%;
+    top: 28%;
+    background: #000000;
+}
+
+.Group12 {
+    position: absolute;
+    width: 215px;
+    height: 32px;
+
+    top: 20%;
+}
+
+.fluent1 {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    left: 10%;
+    
+}
+
+.address1 {
+    position: absolute;
+    width: auto;
+    height: 15px;
+    left: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: none;
+    border:none;
+    word-spacing: 20px;
+  
+}
+
+/*############################################Desktop3############################################*/
+.D3Rectangle17 {
+    margin-left: 600px;
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    /* left: 40%; */
+    top: 16%;
+    background: #F1F1F1;
+    border-radius: 25px;
+}
+
+
+.D3Group21 {
+    position: absolute;
+
+    width: 220px;
+    height: 50px;
+    left: 15%;
+    top: 30%;
+}
+
+
+.D3fluent2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.D3address2 {
+    position: absolute;
+    width: 106px;
+    height: 18px;
+    left: 120%;
+    top: 10%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+}
+
+
+.D3title {
+    position: relative;
+    width: 20%;
+    height: 10%;
+    right: 30%;
+    /* top: 3%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+
+
+
+.D3Rectangle10 {
+    word-break:break-all;
+    object-fit: cover;
+    margin-left: 30px;
+    display: block;
+    max-width: 338px;
+    position: relative;
+    width: 338px;
+    height: 400px;
+    left: 19%;
+    top: 28%;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 4px 4px 40px rgb(255, 255, 255);
+    text-align: center;
+}
+.test{
+    object-fit: cover;
+
+    word-break:break-all;
+    /* position: relative; */
+    margin-top: 50px;
+    /* max-width: 100%; */
+    /* margin-left: 3px; */
+    /* float:left; */
+    display: flex;
+    /* width:3000px; */
+    /* overflow-y: auto; */
+    /* overflow-y: scroll; */
+    /* overflow-x: scroll; */
+    /* height: 100px;     */
+    /* width: 1000px; */
+    /* background:red; */
+    
+
+}
+.testMAIN{
+
+    /* margin-left: 400px; */
+    display : inline-flex;
+
+
+    justify-content: left;
+
+    /* align-items:center; */
+    /* margin-right: px; */
+    flow-wrap: wrap;
+ 
+     word-wrap: break-word;
+    word-break:break-all;
+
+    float: left; 
+    /* max-width: 2000%; */
+    width: 1500px;
+    
+    height: auto;
+    max-height: auto;
+    background-color: rgb(255, 255, 255);
+    overflow-x: auto;
+    /* overflow:hidden; */
+    /* overflow-y: auto; */
+}
+.main{
+    
+    object-fit: cover;
+
+    word-break:break-all;
+    /* float: inline-start; */
+    margin-top: 150px;
+    /* display: block; */
+    width: 90%px;
+    /* height: auto; */
+    text-align: center;
+    
+    background:rgb(255, 255, 255);
+
+}
+
+.D3wallet{
+    position: relative;
+
+    top: 7%;
+    width: 60%;
+    height: 70%;
+    right: 30%;
+}
+
+.D3image4 {
+    position: relative;
+
+    align-items: center;
+    /* top: 7%; */
+    width: 60%;
+    height: 70%;
+    filter: drop-shadow(0px 0px 200px rgba(255, 255, 255, 0.45));
+}
+
+.D3Line3 {
+    position: relative;    
+    width: 80%;
+    height: 0px;
+    top: 8%;
+    border: 1px solid #D7D7D7;
+}
+
+
+.D3text1 {
+    position: relative;
+
+    top: 12%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120%;
+
+
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+
+
+
+
+/*############################################Desktop4############################################*/
+
+
+
+.D4rectangle11 {
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    left: 15%;
+    top: 15%;
+    background: #ffffff;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+}
+
+
+.D4image3 {
+    position: fixed;
+    width: 10%;
+    height: 35%;
+    left: 20%;
+    top: 17%;
+    filter: drop-shadow(0px 0px 200px rgba(255, 255, 255, 0.45));
+}
+
+.D4ellipse1 {
+    position: relative;
+    width: 10%;
+    left: 20%;
+    top: 75%;
+    background: rgba(196, 196, 196, 0.5);
+    filter: blur(10px);
+}
+
+
+
+.D4title2 {
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: -0.03em;
+
+    color: #222222;
+}
+
+.D4Line17 {
+    position: absolute;
+    width: 435px;
+    height: 0px;
+    left: 38%;
+    top: 22%;
+
+    border: 1px solid #000000;
+}
+
+.D4des_title {
+
+    position: absolute;
+    left: 38%;
+    top: 25%;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #222222;
+
+}
+
+.D4description {
+    position: absolute;
+    left: 38%;
+    top: 29%;
+    width: 51%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+
+    color: #222222;
+}
+
+.D4prop_title {
+    position: absolute;
+    left: 38%;
+    top: 39%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #222222;
+
+}
+
+.D4properties {
+    position: absolute;
+    left: 38%;
+    top: 43%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+
+
+
+    color: #222222;
+
+}
+
+
+
+.D4Rectangle12 {
+    position: absolute;
+    left: 15%;
+    top: 58%;
+    width: 91px;
+    height: 27px;
+
+    background: #262626;
+}
+
+.D4Details {
+    position: relative;
+    left: 5%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.D4Polygon1 {
+    position: relative;
+    left: 20%;
+}
+
+
+.D4Group19 {
+    position: absolute;
+    left: 15%;
+    top: 63%;
+    width: 9%;
+    height: 25%;
+}
+
+.D4Group1 {
+    position: absolute;
+    text-align: left;
+    left: 0%;
+
+}
+
+.D4Group2 {
+    position: absolute;
+    text-align: right;
+    left: 100%;
+
+}
+
+.D4ContractAddress {
+    position: relative;
+    left: 0%;
+    top: 0%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #222222;
+}
+
+.D4ContractAddress_m {
+    position: relative;
+    left: 80%;
+    top: 0%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+
+    color: #2F63E9;
+}
+
+.D4Line5 {
+    position: relative;
+    left: 0%;
+    width: 221%;
+    top: 0%;
+    border: 1px solid #E9E9E9;
+}
+
+.D4TokenID {
+    position: relative;
+
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #222222;
+}
+
+.D4TokenID_m {
+    position: relative;
+    left: 128%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    color: #222222;
+}
+
+.D4Line6 {
+    position: relative;
+    left: 0%;
+    width: 221%;
+    top: 0%;
+    border: 1px solid #E9E9E9;
+}
+
+.D4TokenStandard {
+    position: relative;
+    left: 0%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #222222;
+}
+
+.D4TokenStandard_m {
+    position: relative;
+    left: 98%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    color: #222222;
+
+}
+
+.D4Line7 {
+    position: relative;
+    left: 0%;
+    width: 221%;
+    top: 0%;
+    border: 1px solid #E9E9E9;
+}
+
+.D4Blockchain {
+    position: relative;
+    left: 0%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #2F63E9;
+
+}
+
+
+.D4Blockchain_m {
+    position: relative;
+    left: 110%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    color: #222222;
+
+}
+
+.D4Line8 {
+    position: relative;
+    left: 0%;
+    width: 221%;
+    top: 0%;
+    border: 1px solid #E9E9E9;
+}
+
+.D4Metadata {
+
+    position: relative;
+    left: 0%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #222222;
+}
+
+.D4Metadata_m {
+    position: relative;
+    left: 120%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    color: #2F63E9;
+}
+
+.D4Line9 {
+    position: relative;
+    left: 0%;
+    width: 221%;
+    top: 0%;
+    border: 1px solid #E9E9E9;
+}
+
+
+
+.D4Group17 {
+    position: absolute;
+    left: 38%;
+    top: 58%;
+    width: 10%;
+    height: 27px;
+
+}
+
+.D4Rectangle13 {
+    position: relative;
+
+    height: 27px;
+
+    background: #262626;
+}
+
+.D4ItemActivity {
+
+    position: relative;
+    left: 6%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.D4Polygon2 {
+    position: relative;
+    left: 22%;
+    top: 2%;
+
+}
+
+
+.D4Rectangle14 {
+    position: absolute;
+    left: 38%;
+    top: 65%;
+    height: 5%;
+    width: 50%;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+}
+
+.D4Filter {
+    position: relative;
+    left: 1%;
+    top: 20%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #222222;
+}
+
+.D4Rectangle16 {
+    position: relative;
+    left: 2%;
+    top: 20%;
+
+    border: 5px solid #333333;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+}
+
+.D4Group15 {
+    position: absolute;
+    left: 38%;
+    top: 78%;
+    height: 15%;
+    width: 50%;
+
+}
+
+.D4babycarriage {
+    position: relative;
+    left: 8%;
+    top: 5%;
+
+}
+
+.D4Rectangle15 {
+    position: absolute;
+    left: 38%;
+    top: 73%;
+    height: 5%;
+    width: 50%;
+    background: #F4F4F4;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+
+}
+
+.D4Event {
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #666666;
+}
+
+.D4Event_m {
+    position: relative;
+    left: 8.5%;
+    top: 5%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #222222;
+}
+
+
+
+.D4Price {
+    position: relative;
+    left: 23%;
+    top: 20%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #666666;
+}
+
+
+.D4From {
+    position: relative;
+    left: 38%;
+    top: 20%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #666666;
+}
+
+.D4From_m {
+    position: relative;
+
+    left: 36%;
+    top: 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #2F63E9;
+}
+
+
+
+.D4To {
+    position: relative;
+    left: 55%;
+    top: 20%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #666666;
+}
+
+.D4To_m {
+    position: relative;
+    left: 47.5%;
+    top: 5%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #2F63E9;
+}
+
+
+
+.D4Date {
+    position: relative;
+    left: 71%;
+    top: 20%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #666666;
+}
+
+
+
+.D4Date_m {
+    position: relative;
+    left: 58%;
+    top: 5%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #2F63E9;
+}
+
+.D4Vector3 {
+    position: relative;
+    left: 59%;
+    top: 7%;
+
+}
+
+.D4Line16 {
+    position: relative;
+
+    width: 100%;
+    border: 1px solid #D7D7D7;
+}
+
+.createTitle{
+    margin-top: 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    color: #333333;
+        line-height: 18px;
+
+
+    /* line-height: 21px; */
+}
+.subFont{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    font-size: 16px;
+}
+.testtitle{
+    
+    position: relative;
+    padding-top: 7%;
+    padding-left: 22%;
+    width: 100%;
+
+    /* background-color: red; */
+}
+.test2{
+    margin-top: 3%;
+    position: relative;
+    padding-left: 22%;
+    padding-top: 10px;
+    width: 100%;
+    /* background-color:red; */
+}
+.subFontRed{
+    color:red;
+}
+.middleFontWrapper{
+    background-color: rgb(255, 255, 255);
+    padding-left: 22%;
+}
+.utilMiddleFont{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+
+}
+.FileWrapper{
+    margin-top: 22px;
+    margin-left: 22%;
+    padding-top: 20%;
+    padding-left: 22%;
+    width: 80%;
+    max-width: 70px;
+    background-color: rgba(109, 105, 105, 0.164);
+    
+    
+}
+.createMarkPosition{
+    position: relative;
+    top:230px;
+    left: 630px;
+    /* background-color: red; */
+
+}
+.thumbnail{
+    width:370px;
+    height: 370px;
+    margin-left: 22%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    background-color: red;
+    object-fit: cover;
+
+
+}
+.iconTest{
+    background-color: red;
+    /* margin-bottom: 90; */
+}
+.container{
+    width:370px;
+    height: 370px;
+    margin-left: 22%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    background-color: yellowgreen;
+    object-fit: cover;
+
+
+}
+.ImgSize{
+    /* size: 500%; */
+    width:370px;
+    height: 370px;
+    margin-left: 22%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    background-color: red;
+}
+.IconPosition{
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    /* padding-top: px; */
+    width:370px;
+    height: 370px;
+    /* padding-left: 3%; */
+    /* padding-bottom: 22%; */
+    object-fit: cover;
+    /* border-radius: 4px;
+    border: 3px solid #eaeaea; */
+    /* background-color: yellowgreen; */
+}
+.IconPosition2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+
+    margin-left: 80%;
+    position: absolute;
+    /* padding-top: px; */
+    width:370px;
+    height: 370px;
+    /* padding-left: 3%; */
+    /* padding-bottom: 22%; */
+    object-fit: cover;
+    /* border-radius: 4px;
+    border: 3px solid #eaeaea; */
+    /* background-color: yellowgreen; */
+}
+.container2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+
+    margin-left: 80%;
+    position: relative;
+    /* padding-top: px; */
+    width:370px;
+    height: 370px;
+    /* padding-left: 3%; */
+    /* padding-bottom: 22%; */
+    object-fit: cover;
+    /* border-radius: 4px;
+    border: 3px solid #eaeaea; */
+    /* background-color: yellowgreen; */
+}
+.contentWrapper{
+    width: 300px;
+    padding-right: 30%;
+    margin-left:300px;
+    /* margin-right: 200px; */
+    /* background-color: yellowgreen; */
+    border:5px solid #eaeaea;
+    
+}
+
+.dragNdropWrapper{
+    position: relative;
+    padding-top: 20%;
+    padding-left: 22%;
+    width: 100%;
+    padding: 15px 30px;
+
+    background-color: red;
+
+    /* background-color: rgb(255, 255, 255); */
+}
+.NameWrapper{
+    /* position: relative; */
+    /* padding-top: 5%; */
+    /* padding-right: 42%; */
+    padding-left: 22%;
+    width: 100%;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+.DescriptionInputBox{
+    width: 1000px;
+    height: 120px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+.NameInputBox{
+    width: 1000px;
+    height: 60px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+.fontUpperWrapper{
+    vertical-align: top
+}
+.requireItenm{
+    color:red;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.DescriptionWrapper{
+     /* position: relative; */
+    /* padding-top: 5%; */
+    /* padding-right: 42%; */
+    padding-left: 22%;
+    width: 100%;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+.btnWrapper{
+    padding-top: 10px;
+    padding-left: 22%;
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+}
+.btnStyle{
+    /* margin-top: 10%;
+    margin-bottom: 10%;
+    width: 170px;
+    height: 50px;
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    border: 3px solid rgb(108, 110, 112);
+    cursor:pointer */
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 170px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: #000000;
+    color: #FFFFFF;
+
+    
+
+}

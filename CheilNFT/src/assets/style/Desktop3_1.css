@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+.D1Rectangle8 {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+}
+
+.D1G1 {
+    position: absolute;
+
+    width: 50%;
+    height: 20%;
+}
+
+.D1MmessageWhite {
+    position: relative;
+    width: 20px;
+    height: 35px;
+    top: 15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+
+.D1FmessageWhite {
+    position: fixed;
+    left: 15.8%;
+    top: 10%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.D1FBmessageWhite {
+    position: relative;
+    left: 30%;
+    top: 70%;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 200%;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+.D1FAmessageWhite {
+    position: relative;
+
+    left: 7%;
+    top: 100%;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 300%;
+    line-height: 63px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+}
+
+.D1FBBmessageWhite {
+    position: relative;
+    left: 10%;
+    top: 100%;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 220%;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.D1Rectangle1 {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    left: 30%;
+    top: 130%;
+    text-align: center;
+    background: #000000;
+}
+
+
+.D1G2 {
+    position: fixed;
+    left: 16%;
+    top: 53%;
+}
+
+.D1biggerBrand {
+    position: relative;
+    width: 25%;
+    height: 10%;
+    /* top: 15%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 63px;
+    /* text-align: center; */
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+.D1underLineBrand {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 0%;
+    top: 10%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 63px;
+    /* text-align: center; */
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+.D1mintingnow {
+    position: relative;
+    width: 25%;
+    height: 10%;
+    left: 10%;
+    top: 57.5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #222222;
+
+}
+
+.D1titleSAMSUNG {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 15.8%;
+    bottom: 6%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #222222;
+}
+
+.D1txtS {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 15.8%;
+    bottom: 6%;
+    /* top: 15%; */
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: ; */
+    font-size: 11px;
+    line-height: 63px;
+    /* text-align: center; */
+    letter-spacing: -0.03em;
+    color: #6b6969;
+}
+
+.D1titleThome {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 33%;
+    bottom: 6%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    color: #222222;
+}
+
+.D1txtTh {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 33%;
+    bottom: 6%;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 63px;
+    letter-spacing: -0.03em;
+    color: #6b6969;
+}
+
+.D1titleChevrolet {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 50.2%;
+    bottom: 6%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    color: #222222;
+}
+
+.D1txtCh {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 50.2%;
+    bottom: 6%;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 63px;
+    letter-spacing: -0.03em;
+    color: #6b6969;
+}
+
+.D1titleAdidas {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 67.4%;
+    bottom: 6%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    color: #222222;
+}
+
+.D1txtAd {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 67.4%;
+    bottom: 6%;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 63px;
+    letter-spacing: -0.03em;
+    color: #6b6969;
+}
+
+.D2Title {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    left: 1%;
+    top: 13%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+.D2SubMessage {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 8%;
+    top: 21%;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+.D2Count {
+    position: fixed;
+    width: 80%;
+    height: 10%;
+    left: 8%;
+    top: 30%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+
+
+
+
+.D1himage1 {
+    position: fixed;
+    top: 5%;
+    left: 53%;
+    width: 34%;
+    height: 67%;
+    z-index: 2;
+}
+
+.D1mainImg1 {
+    position: absolute;
+    left: 15.8%;
+    top: 60%;
+    width: 15%;
+}
+
+.D1mainImg2 {
+    position: absolute;
+    left: 33%;
+    top: 60%;
+    width: 15%;
+}
+
+.D1mainImg3 {
+    position: absolute;
+    left: 50.2%;
+    top: 60%;
+    width: 15%;
+}
+
+.D1mainImg4 {
+    position: absolute;
+    left: 67.4%;
+    top: 60%;
+    width: 15%;
+}
+
+.D2image2 {
+    position: absolute;
+    left: 36%;
+    top: 40%;
+    width: 20%;
+    height: 40%;
+    filter: drop-shadow(0px 0px 200px rgba(255, 255, 255, 0.45));
+}
+
+.D2Line3 {
+    position: absolute;
+    width: 20%;
+    height: 0px;
+    left: 40%;
+    top: 80%;
+    border: 1px solid #D7D7D7;
+}
+
+.D2Rectangle2 {
+    position: absolute;
+    width: 15%;
+    height: 6%;
+    left: 40%;
+    top: 85%;
+    text-align: center;
+    background: #222222;
+}
+
+.D2messageWhite {
+    position: relative;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+background-color: #000000;
+    color: #FFFFFF;
+
+}
